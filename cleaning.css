@@ -1,0 +1,126 @@
+body{
+    background:url('p6.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+.nav{
+    text-decoration: none;
+    color:black;
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+    text-align:center;
+    margin-top:45px;
+  }
+  .waviy span {
+  
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+ .words{
+    padding:20px;
+    margin-top:100px;
+    display:block;
+    color:black;
+    background:rgb(240,248,255,0.8);;
+    font-size: 20px;
+    margin-left:120px;
+    margin-right:120px;
+    text-align: center;
+ }
+ #slider{
+    position: relative;
+    width:500px;
+    margin-left:450px;
+    height:365px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+   
+
+ }
+ #slider ul{
+    position: relative;
+    list-style: none;
+    height:100%;
+    width:10000%;
+    padding:0;
+    margin:0;
+    transition:all 750ms ease;
+    left:0;
+ }
+ #slider ul li{
+    position:relative;
+    height:100%;
+    float:left;
+ }
+ #slider ul li img{
+    width:500px;
+    height:365px;
+ }
+ #slider #prev, #slider #next{
+    width:50px;
+    line-height:50px;
+    text-align: center;
+    color:white;
+    text-decoration:none;
+    position: absolute;
+    top:50%;
+    font-size:2rem;
+    text-shadow: 0 0 20px rgba(0,0,0,0.6);
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+ }
+ #slider #prev{
+    left:10px;
+ }
+ #slider #next{
+    right:10px;
+ }
+ #slider #prev:hover, #slider #next:hover{
+    background-color: rgba(0,0,0,0.5);
+    text-shadow: 0;
+ }
+ .container{
+   position:relative;
+   display: flex;
+   width:350px;
+   height:365px;
+   margin-left:45px;
+   padding:2px;
+ }
+ .container img{
+   width:400px;
+   height:365px;
+   padding:8px;
+ }
+ .footer{
+   height:500px;
+   background-color: rgb(137, 247, 247,0.3);
+   text-align:center;
+   font-size:45px;
+ }
+ .footer h1{
+   padding:40px;
+ }

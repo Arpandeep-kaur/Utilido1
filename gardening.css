@@ -1,0 +1,61 @@
+body{
+    text-decoration: none;
+   
+    background:url('p7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ a{
+    text-decoration:none;
+    color:black;
+}
+.words{
+    text-align: center;
+    font-size:48px;
+    position:relative;
+    text-shadow: 2px 2px 8px #55c255;
+}
+.content{
+    background-color: rgba(156, 248, 156, 0.3);
+    width:1250px;
+    margin-left:50px;
+    margin-right:50px;
+    text-align:center;
+    font-size: 34px;;
+}
+.services{
+    
+    padding:0;
+
+}
+.services h4{
+    background-color: rgb(16, 167, 16,0.4);
+    text-align:center;
+    width:1250px;
+    margin-left:50px;
+    margin-right:50px;
+    font-size:50px;
+
+}
+.services ul{
+    background-color: rgba(99, 250, 99, 0.4);
+    width:1210px;
+    margin-left:50px;
+    margin-right:50px;
+    font-size:35px;
+}
+button{
+    background: transparent;
+    border-radius:12px;
+    padding:8px;
+    font-size:20px;
+    display: inline-block;
+    margin-left:532px;
+    margin-top: 30px;
+    margin-bottom: 20px;;
+    
+}
+
+
+  
+  
