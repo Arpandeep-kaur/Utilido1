@@ -1,0 +1,51 @@
+body
+{
+background-image:url('Blue1.jpeg');
+}
+#myMenu
+{
+background-color:rgba(0,0,0,0.5);
+text-align:right;
+color:white;
+}
+.cap
+{
+color:white;
+font-weight:bold;
+font-size:30px;
+}
+#data
+{
+margin-top:150px;
+
+}
+table
+{
+color:white;
+background-color:rgba(0,0,0,0.5);
+padding:12px;
+}
+.t1
+{
+border-radius:20px;
+}
+.B
+{
+background:linear-gradient(to right,blue,white);
+}
+.B:hover
+{
+background:linear-gradient(to left,blue,white);
+font-size:15px;	
+}
+#myMenu ul li
+{
+display:inline-block;
+padding:12px;
+}
+
+#myMenu ul li a
+{
+    text-decoration: none;
+    color:white;
+}

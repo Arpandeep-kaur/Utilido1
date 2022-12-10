@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Repair Services</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="Repaircss.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+
+<div id="header-featured">
+	<div class="images">
+		<a href="../../home.html"><i class="fa fa-home" style="font-size:48px "></i></a>
+		<img class="mySlides" src="RS1.jpg" style="width:100%">
+		<img class="mySlides" src="RS2.jpg" style="width:100%">
+		<img class="mySlides" src="RS3.jpg" style="width:100%">
+    </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2500); 
+}
+</script>
+</div>
+
+<div id="wrapper">
+   <div id="extra" class="container">
+       <h2>Repairing Services</h2> 
+       <p>What we basically do is ,we help the customers to provide the repairing services they desire. We've got this covered for you. We provide the repairing services for both cars and two wheeler. we have skilled engineerers to maintain and do the work with absolute perfection which will leave our customers satisfied. </p>
+
+       <a class="button" href="../../BabySitting.html">Book Now</a>
+   </div>
+
+   
+</div>
+
+<div id="page-wrapper">
+	<div id="extra2" class="contain">
+		<div class="title">
+			<h2>Services We Provide</h2>
+		</div>
+		<div class="tbox1">
+			<div class="padding-bottom">
+				<h2>Car Repairing</h2>
+				<img src="images/R1.jpg" alt="" />
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="padding-bottom">
+				<h2>Two Wheeler Repairing</h2>
+				<img src="images/R2.jpg" alt="" />
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
